@@ -1,0 +1,123 @@
+.wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-right: 2.5%;
+}
+
+.header h3 {
+    position: relative;
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(26, 102, 243);
+  }
+.header h3::before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid red;
+    bottom: .25rem;
+    left: 50%;
+    width: 30%;
+    transform: translateX(-50%);
+  }
+.header h3::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid green;
+    bottom: 0;
+    left: 50%;
+    width: 15%;
+    transform: translateX(-50%);
+}
+
+.header img{
+    margin-top: 3%;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: rgb(226, 248, 255);
+    border-radius: 10px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+td{
+    height: 40px;
+}
+
+tbody input{
+    text-align: center;
+    width: 95%;
+}
+
+tfoot td{
+    text-align: center;
+}
+
+input[type="submit"]{
+    padding: 10px 24px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px gray;
+}
+
+input[type="submit"]:hover{
+    background-color: darkgrey;
+}
+
+.input_form{
+    display: flex;
+    height: 35px;
+    width: 400px;
+    border: 0.5px solid gray;
+    border-radius: 25px;
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 30px;
+    top: 25%;
+}
+
+.input_form:hover{
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+}
+
+.input_form:focus{
+    outline: 0;
+    outline-offset: 0;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+}
+
+.submitbutton{
+    text-align: center;
+}
+
+.menu{
+    margin-left: 50%;
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a{
+    padding-left: 25px;
+    outline: none;
+    color: darkgrey;
+}
+
+
+.menu a:hover{
+    color: darkred;
+}

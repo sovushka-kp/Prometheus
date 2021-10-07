@@ -57,3 +57,20 @@ input[type="submit"] {
 input[type="submit"]:hover{
     box-shadow:4px 4px 10px rgba(0,0,0,0.06);
 }
+
+.menu{
+    margin-left: 50%;
+    color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a{
+    padding-left: 25px;
+    outline: none;
+    color: darkgrey;
+}
+
+.menu a:hover{
+    color: 1px solid darkred;
+}
+
